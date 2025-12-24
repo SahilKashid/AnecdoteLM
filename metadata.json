@@ -1,0 +1,5 @@
+{
+  "name": "AnecdoteLM",
+  "description": "Turn your study notes into challenging, real-world scenarios. Upload PDF or Markdown/Text files to generate application-based Q&A.",
+  "requestFramePermissions": []
+}
