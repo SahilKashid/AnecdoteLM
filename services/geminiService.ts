@@ -13,7 +13,7 @@ export const generateScenariosFromNotes = async (
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     
     // We use gemini-3-pro-preview for better reasoning capabilities on complex text tasks
-    const modelId = 'gemini-3-pro-preview';
+    const modelId = 'gemini-pro-latest-preview';
 
     // Create a part for each file
     const fileParts = files.map(file => ({
